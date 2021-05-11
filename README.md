@@ -1,16 +1,3 @@
-# Installation
-
-## Installing:
-### Install pre-requisite
-```
-$ flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
-$ flatpak install flathub org.freedesktop.Platform//20.08 org.freedesktop.Sdk//20.08 --system
-```
-### Build + Install / Update
-```
-$ flatpak-builder builddir com.github.nihui.waifu2x-ncnn-vulkan.yaml --force-clean --install --user
-```
-
 ## Running:
 See <https://github.com/nihui/waifu2x-ncnn-vulkan#usage> for details.  
 With flatpak you would do this:
