@@ -43,8 +43,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/nihui/waifu2x-ncnn-vulkan.git
-        tag: '20210210'
-        commit: 77534d94b562148d07767c5c647a6a8b26013e2e
+        tag: '20210521'
+        commit: 4981ffc163d9ec43e78d262e74945cb5d9fede14
         x-checker-data:
           is-main-source: true
           type: json
