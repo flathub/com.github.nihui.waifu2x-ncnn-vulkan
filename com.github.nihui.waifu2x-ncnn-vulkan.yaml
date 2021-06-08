@@ -27,8 +27,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/protocolbuffers/protobuf.git
-        tag: v3.17.2
-        commit: 70db61a91bae270dca5db2f9837deea11118b148
+        tag: v3.17.3
+        commit: 909a0f36a10075c4b4bc70fdee2c7e32dd612a72
         x-checker-data:
           type: git
           tag-pattern: ^v([\d.]+)$
