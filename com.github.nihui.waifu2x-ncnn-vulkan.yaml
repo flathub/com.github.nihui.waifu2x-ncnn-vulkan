@@ -27,8 +27,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/protocolbuffers/protobuf.git
-        tag: v3.19.4
-        commit: 22d0e265de7d2b3d2e9a00d071313502e7d4cccf
+        tag: v3.20.0
+        commit: bc799d78f81115940eec953e2937245c70e3e6e4
         x-checker-data:
           type: git
           tag-pattern: ^v([\d.]+)$
@@ -43,8 +43,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/nihui/waifu2x-ncnn-vulkan.git
-        tag: '20210521'
-        commit: 4981ffc163d9ec43e78d262e74945cb5d9fede14
+        tag: '20220419'
+        commit: 53e46c392ece311b3d704132f03d1a3e10276a9b
         x-checker-data:
           is-main-source: true
           type: json
