@@ -1,7 +1,7 @@
 app-id: com.github.nihui.waifu2x-ncnn-vulkan
 
 runtime: org.freedesktop.Platform
-runtime-version: '20.08'
+runtime-version: '22.08'
 sdk: org.freedesktop.Sdk
 
 command: waifu2x-ncnn-vulkan
