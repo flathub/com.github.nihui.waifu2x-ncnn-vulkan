@@ -19,6 +19,9 @@
   <content_rating type="oars-1.0"/>
   <update_contact/>
   <releases>
+    <release version="20220728" date="2022-07-28">
+      <description></description>
+    </release>
     <release version="20220419" date="2022-04-19"/>
     <release version="20210521" date="2021-05-21"/>
     <release version="20210210" date="2021-02-10"/>
