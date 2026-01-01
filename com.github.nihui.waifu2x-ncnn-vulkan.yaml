@@ -1,7 +1,7 @@
 app-id: com.github.nihui.waifu2x-ncnn-vulkan
 
 runtime: org.freedesktop.Platform
-runtime-version: '20.08'
+runtime-version: '25.08'
 sdk: org.freedesktop.Sdk
 
 command: waifu2x-ncnn-vulkan
@@ -27,8 +27,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/protocolbuffers/protobuf.git
-        tag: v21.4
-        commit: c9869dc7803eb0a21d7e589c40ff4f9288cd34ae
+        tag: v21.12
+        commit: f0dc78d7e6e331b8c6bb2d5283e06aa26883ca7c
         x-checker-data:
           type: git
           tag-pattern: ^v([\d.]+)$
@@ -43,8 +43,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/nihui/waifu2x-ncnn-vulkan.git
-        tag: '20220419'
-        commit: 53e46c392ece311b3d704132f03d1a3e10276a9b
+        tag: '20250915'
+        commit: a86cfb043e6482b5f08778a114df9b5faf6e73b7
         x-checker-data:
           is-main-source: true
           type: json
